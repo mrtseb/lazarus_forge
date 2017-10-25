@@ -1,0 +1,46 @@
+object Form2: TForm2
+  Left = 411
+  Height = 540
+  Top = 265
+  Width = 265
+  Caption = 'Associer une animation'
+  ClientHeight = 540
+  ClientWidth = 265
+  OnCreate = FormCreate
+  OnHide = FormHide
+  LCLVersion = '1.8.0.4'
+  object AnimateImage1: TAnimateImage
+    Left = 8
+    Height = 465
+    Top = 32
+    Width = 256
+    Images = ImageList1
+  end
+  object SpinEdit1: TSpinEdit
+    Left = 8
+    Height = 23
+    Top = 504
+    Width = 90
+    OnChange = SpinEdit1Change
+    TabOrder = 0
+  end
+  object BitBtn1: TBitBtn
+    Left = 0
+    Height = 27
+    Top = 0
+    Width = 264
+    Caption = 'Choisir une animation'
+    OnClick = BitBtn1Click
+    TabOrder = 1
+  end
+  object ImageList1: TImageList
+    Height = 153
+    Width = 188
+    left = 208
+    top = 504
+  end
+  object OpenDialog1: TOpenDialog
+    left = 240
+    top = 504
+  end
+end

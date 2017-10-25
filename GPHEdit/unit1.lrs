@@ -1,0 +1,25 @@
+{ This is an automatically generated lazarus resource file }
+
+LazarusResources.Add('TForm1','FORMDATA',[
+  'TPF0'#6'TForm1'#5'Form1'#4'Left'#3#137#0#6'Height'#3#232#2#3'Top'#2'm'#5'Wid'
+  +'th'#3'R'#5#7'Caption'#6#7'GphEdit'#12'ClientHeight'#3#232#2#11'ClientWidth'
+  +#3'R'#5#10'LCLVersion'#6#7'1.9.0.0'#11'WindowState'#7#11'wsMaximized'#0#5'TM'
+  +'emo'#5'Memo1'#4'Left'#2#0#6'Height'#2'~'#3'Top'#3'j'#2#5'Width'#3'R'#5#5'Al'
+  +'ign'#7#8'alBottom'#13'Lines.Strings'#1#6#5'Memo1'#0#10'ScrollBars'#7#10'ssV'
+  +'ertical'#8'TabOrder'#2#0#7'Visible'#8#0#0#11'TOpenDialog'#11'OpenDialog1'#4
+  +'Left'#2' '#0#0#11'TSaveDialog'#11'SaveDialog1'#4'Left'#2'@'#0#0#10'TIdleTim'
+  +'er'#10'IdleTimer1'#7'Enabled'#8#8'Interval'#3#244#1#4'Left'#2'`'#0#0#10'TId'
+  +'leTimer'#10'IdleTimer2'#7'Enabled'#8#8'Interval'#2'd'#4'Left'#3#136#0#0#0#9
+  +'TMainMenu'#9'MainMenu1'#4'Left'#3#176#0#0#9'TMenuItem'#10'mnuFichier'#7'Cap'
+  +'tion'#6#7'Fichier'#0#9'TMenuItem'#6'mnuNew'#7'Caption'#6#8'&Nouveau'#0#0#9
+  +'TMenuItem'#9'mnuOuvrir'#7'Caption'#6#7'&Ouvrir'#0#0#9'TMenuItem'#7'mnuSave'
+  +#7'Caption'#6#12'&Enregistrer'#0#0#9'TMenuItem'#9'MenuItem1'#7'Caption'#6#17
+  +'E&nregistrer sous'#0#0#9'TMenuItem'#9'MenuItem3'#7'Caption'#6#8'&Quitter'#0
+  +#0#0#9'TMenuItem'#10'mnuEdition'#7'Caption'#6#8'&Edition'#0#9'TMenuItem'#11
+  +'mnuInsEtape'#7'Caption'#6#16'&Ins'#195#169'rer '#195#169'tape'#0#0#9'TMenuI'
+  +'tem'#13'mnuSupprEtape'#7'Caption'#6#17'&Supprimer '#195#169'tape'#0#0#9'TMe'
+  +'nuItem'#15'mnuAssocierAnim'#7'Caption'#6#22'Associer une animation'#0#0#0#9
+  +'TMenuItem'#11'mnuSimulate'#7'Caption'#6#10'Simulation'#0#9'TMenuItem'#13'mn'
+  +'uSimulStart'#7'Caption'#6#9'D'#195#169'marrer'#0#0#9'TMenuItem'#12'mnuSimul'
+  +'Stop'#7'Caption'#6#8'Arr'#195#170'ter'#0#0#0#0#0
+]);

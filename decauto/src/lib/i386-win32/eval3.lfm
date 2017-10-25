@@ -1,0 +1,204 @@
+object Form14: TForm14
+  Left = 29
+  Height = 469
+  Top = 159
+  Width = 509
+  BorderIcons = []
+  Caption = 'Evaluation chapitre 1'
+  ClientHeight = 469
+  ClientWidth = 509
+  Color = clOlive
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.6.2.0'
+  object Shape1: TShape
+    Left = 12
+    Height = 328
+    Top = 87
+    Width = 484
+    Brush.Color = clMedGray
+  end
+  object Memo1: TMemo
+    Left = 32
+    Height = 288
+    Top = 104
+    Width = 336
+    Color = clGradientActiveCaption
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'les systèmes automatisés ou robotisés sont de moins '
+      'en moins utilisés à l''échelle de la société'
+      ''
+      'on utilise les sytèmes automatisés ou robotisés pour '
+      'les travaux dangereux'
+      ''
+      'l''utilisation des robots dans l''industrie menace à '
+      'moyen terme les emplois peu qualifiés'
+      ''
+      'les avions n''utilsent aucun système automatisé             '
+      '                                                                             '
+      ''
+      'les airbags sont des systèmes automatisés qui '
+      'augmentent la sécurité'
+      ''
+      'le satellite n''est pas un système automatisé'
+      ''
+    )
+    ParentFont = False
+    TabOrder = 0
+  end
+  object CheckBox1: TCheckBox
+    Tag = 1
+    Left = 387
+    Height = 19
+    Top = 114
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 1
+  end
+  object CheckBox2: TCheckBox
+    Tag = 2
+    Left = 448
+    Height = 19
+    Top = 114
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 2
+  end
+  object CheckBox5: TCheckBox
+    Tag = 4
+    Left = 448
+    Height = 19
+    Top = 173
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 3
+  end
+  object CheckBox6: TCheckBox
+    Tag = 3
+    Left = 387
+    Height = 19
+    Top = 173
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 4
+  end
+  object CheckBox7: TCheckBox
+    Tag = 6
+    Left = 448
+    Height = 19
+    Top = 230
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 5
+  end
+  object CheckBox8: TCheckBox
+    Tag = 5
+    Left = 387
+    Height = 19
+    Top = 230
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 6
+  end
+  object CheckBox9: TCheckBox
+    Tag = 8
+    Left = 448
+    Height = 19
+    Top = 287
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 7
+  end
+  object CheckBox10: TCheckBox
+    Tag = 7
+    Left = 387
+    Height = 19
+    Top = 287
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 8
+  end
+  object CheckBox11: TCheckBox
+    Tag = 10
+    Left = 448
+    Height = 19
+    Top = 343
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 9
+  end
+  object CheckBox12: TCheckBox
+    Tag = 9
+    Left = 387
+    Height = 19
+    Top = 343
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 10
+  end
+  object Memo2: TMemo
+    Left = 8
+    Height = 32
+    Top = 8
+    Width = 488
+    Color = clYellow
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Lines.Strings = (
+      'Indique si les phrases ci-dessous sont vraies ou fausses'
+    )
+    ParentFont = False
+    TabOrder = 11
+  end
+  object Label1: TLabel
+    Left = 368
+    Height = 25
+    Top = 63
+    Width = 44
+    Caption = 'VRAI'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 432
+    Height = 25
+    Top = 63
+    Width = 48
+    Caption = 'FAUX'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Button2: TButton
+    Left = 200
+    Height = 33
+    Top = 424
+    Width = 103
+    Caption = 'J''AI TERMINE'
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 12
+  end
+end

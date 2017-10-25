@@ -1,0 +1,214 @@
+object Form4: TForm4
+  Left = 52
+  Height = 425
+  Top = 158
+  Width = 512
+  BorderIcons = []
+  Caption = 'Evaluation chapitre 2'
+  ClientHeight = 425
+  ClientWidth = 512
+  Color = clOlive
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.6.2.0'
+  object Shape1: TShape
+    Left = 104
+    Height = 216
+    Top = 128
+    Width = 297
+    Brush.Color = clMedGray
+  end
+  object Memo1: TMemo
+    Left = 16
+    Height = 72
+    Top = 8
+    Width = 491
+    Color = clYellow
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Lines.Strings = (
+      'Si tu as bien compris, tu dois pouvoir indiquer, pour les systèmes suivants, '
+      'lesquels appartiennent à la catégoriedes systèmes automatisés et lesquels '
+      'appartiennent à la catégorie des systèmes mécanisés.'
+    )
+    ParentFont = False
+    TabOrder = 0
+  end
+  object CheckBox1: TCheckBox
+    Tag = 1
+    Left = 280
+    Height = 19
+    Top = 144
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 1
+  end
+  object CheckBox2: TCheckBox
+    Tag = 2
+    Left = 360
+    Height = 19
+    Top = 142
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 2
+  end
+  object CheckBox3: TCheckBox
+    Tag = 3
+    Left = 280
+    Height = 19
+    Top = 173
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 3
+  end
+  object CheckBox4: TCheckBox
+    Tag = 4
+    Left = 360
+    Height = 19
+    Top = 173
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 4
+  end
+  object CheckBox5: TCheckBox
+    Tag = 5
+    Left = 280
+    Height = 19
+    Top = 202
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 5
+  end
+  object CheckBox6: TCheckBox
+    Tag = 6
+    Left = 360
+    Height = 19
+    Top = 202
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 6
+  end
+  object CheckBox7: TCheckBox
+    Tag = 7
+    Left = 280
+    Height = 19
+    Top = 233
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 7
+  end
+  object CheckBox8: TCheckBox
+    Tag = 8
+    Left = 360
+    Height = 19
+    Top = 233
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 8
+  end
+  object CheckBox9: TCheckBox
+    Tag = 9
+    Left = 280
+    Height = 19
+    Top = 262
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 9
+  end
+  object CheckBox10: TCheckBox
+    Tag = 10
+    Left = 360
+    Height = 19
+    Top = 264
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 10
+  end
+  object CheckBox11: TCheckBox
+    Tag = 11
+    Left = 280
+    Height = 19
+    Top = 293
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 11
+  end
+  object CheckBox12: TCheckBox
+    Tag = 12
+    Left = 360
+    Height = 19
+    Top = 293
+    Width = 20
+    OnChange = CheckBox1Change
+    State = cbGrayed
+    TabOrder = 12
+  end
+  object ListBox1: TListBox
+    Left = 120
+    Height = 186
+    Top = 141
+    Width = 129
+    BorderStyle = bsNone
+    Color = clGradientActiveCaption
+    Items.Strings = (
+      'distributeur de boisson'
+      ''
+      'automobile'
+      ''
+      'bicyclette'
+      ''
+      'porte automatique'
+      ''
+      'alarme incendie'
+      ''
+      'sonnerie du collège'
+    )
+    ItemHeight = 15
+    ParentFont = False
+    TabOrder = 13
+  end
+  object Button2: TButton
+    Left = 211
+    Height = 33
+    Top = 376
+    Width = 103
+    Caption = 'J''AI TERMINE'
+    Font.Style = [fsBold]
+    OnClick = Button2Click
+    ParentFont = False
+    TabOrder = 14
+  end
+  object Label1: TLabel
+    Left = 256
+    Height = 25
+    Top = 104
+    Width = 58
+    Caption = 'MECA.'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 336
+    Height = 25
+    Top = 104
+    Width = 55
+    Caption = 'AUTO.'
+    Font.Height = -19
+    Font.Style = [fsBold]
+    ParentColor = False
+    ParentFont = False
+  end
+end

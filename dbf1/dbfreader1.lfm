@@ -1,0 +1,375 @@
+object Form1: TForm1
+  Left = 27
+  Height = 837
+  Top = 116
+  Width = 1588
+  Caption = 'Evaluation de Technologie - sebastien.tack@ac-caen.fr -  tous droits réservés.'
+  ClientHeight = 837
+  ClientWidth = 1588
+  OnActivate = FormActivate
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.5'
+  object PageControl1: TPageControl
+    Left = 0
+    Height = 837
+    Top = 0
+    Width = 1588
+    ActivePage = TabSheet1
+    Align = alClient
+    TabIndex = 0
+    TabOrder = 0
+    object TabSheet1: TTabSheet
+      Caption = 'Programmes C4'
+      ClientHeight = 809
+      ClientWidth = 1580
+      object Panel1: TPanel
+        Left = 0
+        Height = 34
+        Top = 0
+        Width = 1580
+        Align = alTop
+        ClientHeight = 34
+        ClientWidth = 1580
+        TabOrder = 0
+        object ComboBox1: TComboBox
+          Left = 24
+          Height = 23
+          Top = 5
+          Width = 416
+          ItemHeight = 15
+          OnChange = ComboBox1Change
+          TabOrder = 0
+          Text = 'ComboBox1'
+        end
+        object chkSocle: TCheckBox
+          Left = 456
+          Height = 19
+          Top = 5
+          Width = 100
+          Caption = 'Socle commun'
+          Checked = True
+          OnClick = chkSocleClick
+          State = cbChecked
+          TabOrder = 1
+        end
+        object chkNotions: TCheckBox
+          Left = 560
+          Height = 19
+          Top = 5
+          Width = 121
+          Caption = 'Notions de techno.'
+          OnClick = chkSocleClick
+          TabOrder = 2
+        end
+        object Label2: TLabel
+          Left = 696
+          Height = 17
+          Hint = 'Design, Innovation et créativité'
+          Top = 5
+          Width = 29
+          Caption = 'D.I.C'
+          Font.Height = 17
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+        end
+        object Label3: TLabel
+          Left = 744
+          Height = 17
+          Hint = 'Modélisation et Simulation des Objets et Systèmes techniques'
+          Top = 5
+          Width = 59
+          Caption = 'M.S.O.S.T'
+          Font.Height = 17
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+        end
+        object Label4: TLabel
+          Left = 816
+          Height = 17
+          Hint = 'Objets techniques, Services et Changements Induits dans la Socièté'
+          Top = 5
+          Width = 62
+          Caption = 'O.T.S.C.I.S'
+          Font.Height = 17
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+        end
+        object Label5: TLabel
+          Left = 896
+          Height = 17
+          Hint = 'Informatique et Programmation'
+          Top = 5
+          Width = 16
+          Caption = 'I.P'
+          Font.Height = 17
+          Font.Style = [fsBold]
+          ParentColor = False
+          ParentFont = False
+          ParentShowHint = False
+          ShowHint = True
+        end
+      end
+      object Memo1: TRichMemo
+        Left = 0
+        Height = 775
+        Top = 34
+        Width = 1064
+        Align = alLeft
+        HideSelection = False
+        Lines.Strings = (
+          'Memo1'
+        )
+        ReadOnly = True
+        TabOrder = 1
+        ZoomFactor = 1
+      end
+      object Memo3: TRichMemo
+        Left = 1052
+        Height = 775
+        Top = 34
+        Width = 528
+        Align = alRight
+        HideSelection = False
+        Lines.Strings = (
+          'Memo1'
+        )
+        ReadOnly = True
+        TabOrder = 2
+        ZoomFactor = 1
+      end
+    end
+    object TabSheet2: TTabSheet
+      Caption = 'Evaluation C4'
+      ClientHeight = 809
+      ClientWidth = 1592
+      object DBGrid1: TDBGrid
+        Left = 0
+        Height = 761
+        Top = 48
+        Width = 528
+        Align = alLeft
+        AutoAdvance = aaNone
+        AutoEdit = False
+        Color = clWindow
+        Columns = <>
+        DataSource = DataSource1
+        Options = [dgTitles, dgIndicator, dgColumnResize, dgColumnMove, dgColLines, dgRowLines, dgTabs, dgAlwaysShowSelection, dgConfirmDelete, dgCancelOnExit, dgDisableInsert]
+        Scrollbars = ssAutoVertical
+        TabOrder = 0
+      end
+      object Panel2: TPanel
+        Left = 0
+        Height = 48
+        Top = 0
+        Width = 1592
+        Align = alTop
+        ClientHeight = 48
+        ClientWidth = 1592
+        TabOrder = 1
+        object cmbClasse: TComboBox
+          Left = 5
+          Height = 23
+          Top = 12
+          Width = 99
+          ItemHeight = 15
+          Items.Strings = (
+            'TOUS'
+          )
+          OnChange = cmbClasseChange
+          TabOrder = 0
+          Text = 'cmbClasse'
+        end
+        object Button1: TButton
+          Left = 120
+          Height = 23
+          Top = 11
+          Width = 77
+          Caption = '&Copier'
+          OnClick = Button1Click
+          TabOrder = 1
+        end
+        object Button2: TButton
+          Left = 208
+          Height = 23
+          Top = 11
+          Width = 77
+          Caption = 'Co&ller'
+          OnClick = Button2Click
+          TabOrder = 2
+        end
+        object RadioGroup1: TRadioGroup
+          Left = 368
+          Height = 40
+          Top = 1
+          Width = 142
+          AutoFill = True
+          Caption = 'par défaut'
+          ChildSizing.LeftRightSpacing = 6
+          ChildSizing.EnlargeHorizontal = crsHomogenousChildResize
+          ChildSizing.EnlargeVertical = crsHomogenousChildResize
+          ChildSizing.ShrinkHorizontal = crsScaleChilds
+          ChildSizing.ShrinkVertical = crsScaleChilds
+          ChildSizing.Layout = cclLeftToRightThenTopToBottom
+          ChildSizing.ControlsPerLine = 4
+          ClientHeight = 20
+          ClientWidth = 138
+          Columns = 4
+          Items.Strings = (
+            '1'
+            '2'
+            '3'
+            '4'
+          )
+          OnClick = RadioGroup1Click
+          TabOrder = 3
+        end
+        object Button3: TButton
+          Left = 296
+          Height = 23
+          Top = 11
+          Width = 63
+          Caption = 'RAZ'
+          OnClick = Button3Click
+          TabOrder = 4
+        end
+        object Button4: TButton
+          Left = 520
+          Height = 23
+          Top = 11
+          Width = 131
+          Caption = 'Enregistrer'
+          OnClick = Button4Click
+          TabOrder = 5
+        end
+      end
+      object Label1: TLabel
+        Left = 536
+        Height = 15
+        Top = 52
+        Width = 34
+        Caption = 'Label1'
+        ParentColor = False
+      end
+      object ValueListEditor1: TValueListEditor
+        Left = 1799
+        Height = 327
+        Top = 20
+        Width = 1389
+        FixedCols = 0
+        RowCount = 2
+        TabOrder = 2
+        ColWidths = (
+          64
+          1304
+        )
+      end
+      object Memo2: TMemo
+        Left = 1336
+        Height = 53
+        Top = 472
+        Width = 206
+        Lines.Strings = (
+          'Memo2'
+        )
+        TabOrder = 3
+        Visible = False
+      end
+      object DBEdit1: TDBEdit
+        Left = 930
+        Height = 23
+        Top = 62
+        Width = 154
+        CharCase = ecNormal
+        MaxLength = 0
+        TabOrder = 4
+      end
+      object DateEdit1: TDateEdit
+        Left = 536
+        Height = 23
+        Top = 80
+        Width = 114
+        CalendarDisplaySettings = [dsShowHeadings, dsShowDayNames]
+        DateOrder = doNone
+        ButtonWidth = 23
+        NumGlyphs = 1
+        MaxLength = 0
+        TabOrder = 5
+        Text = 'DateEdit1'
+      end
+    end
+  end
+  object Dbf1: TDbf
+    FilePath = './stuff/dbf1/db\'
+    IndexDefs = <>
+    TableName = 'competences.dbf'
+    TableLevel = 7
+    FilterOptions = []
+    left = 1512
+    top = 352
+  end
+  object Dbf2: TDbf
+    FilePath = './stuff/dbf1/db\'
+    IndexDefs = <>
+    TableLevel = 4
+    FilterOptions = []
+    left = 1512
+    top = 248
+  end
+  object Dbf3: TDbf
+    IndexDefs = <>
+    TableName = 'socle.dbf'
+    TableLevel = 7
+    FilterOptions = []
+    left = 1512
+    top = 296
+  end
+  object Dbf4: TDbf
+    IndexDefs = <>
+    TableLevel = 4
+    FilterOptions = []
+    left = 1512
+    top = 192
+  end
+  object Dbf5: TDbf
+    IndexDefs = <>
+    TableLevel = 4
+    FilterOptions = []
+    left = 1512
+    top = 88
+  end
+  object Dbf6: TDbf
+    IndexDefs = <>
+    TableLevel = 4
+    FilterOptions = [foCaseInsensitive, foNoPartialCompare]
+    AfterScroll = Dbf6AfterScroll
+    left = 1512
+    top = 136
+  end
+  object DataSource1: TDataSource
+    AutoEdit = False
+    DataSet = Dbf6
+    left = 16
+    top = 72
+  end
+  object DataSource2: TDataSource
+    DataSet = Dbf7
+    left = 1512
+    top = 432
+  end
+  object Dbf7: TDbf
+    IndexDefs = <>
+    TableLevel = 4
+    FilterOptions = []
+    left = 1512
+    top = 488
+  end
+end

@@ -1,0 +1,52 @@
+1;OTSCIS.1.1.1; L’évolution des objets.
+1;OTSCIS.1.1.2; Impacts sociétaux et environnementaux dus aux objets.
+1;OTSCIS.1.1.3; Cycle de vie.
+1;OTSCIS.1.1.4; Les règles d’un usage raisonné des objets communicants respectant la propriété intellectuelle et l’intégrité d’autrui.
+4;OTSCIS.1.4.1; Outils numériques de présentation.
+4;OTSCIS.1.4.2; Charte graphique.
+5;OTSCIS.2.1.1; Croquis à main levée.
+5;OTSCIS.2.1.2; Différents schémas.
+5;OTSCIS.2.1.3; Carte heuristique.
+5;OTSCIS.2.1.4; Notion d’algorithme.
+6;OTSCIS.2.2.1; Outils numériques de description des objets techniques.
+7;DIC.1.1.1; Besoin, contraintes, normalisation.
+8;DIC.1.2.1; Principaux éléments d’un cahier des charges.
+9;DIC.1.3.1; Outils numériques de présentation.
+9;DIC.1.3.2; Charte graphique.
+10;DIC.1.4.1; Organisation d’un groupe de projet, rôle des participants, planning, revue de projets.
+11;DIC.1.5.1; Design.
+11;DIC.1.5.2; Innovation et créativité.
+11;DIC.1.5.3; Veille.
+11;DIC.1.5.4; Représentation de solutions (croquis, schémas, algorithmes).
+11;DIC.1.5.5; Réalité augmentée.
+11;DIC.1.5.6; Objets connectés.
+12;DIC.1.6.1; Arborescence.
+13;DIC.1.7.1; Outils numériques de présentation - Charte graphique.
+14;DIC.2.1.1; Prototypage rapide de structures et de circuits de commande à partir de cartes standard.
+15;MSOST.1.1.1; Procédures, protocoles.
+15;MSOST.1.1.2; Ergonomie.
+16;MSOST.1.2.1; Analyse fonctionnelle systémique.
+17;MSOST.1.3.1; Représentation fonctionnelle des systèmes.
+17;MSOST.1.3.2; Structure des systèmes.
+17;MSOST.1.3.3; Chaîne d’énergie.
+17;MSOST.1.3.4; Chaîne d’information.
+18;MSOST.1.4.1; Familles de matériaux avec leurs principales caractéristiques.
+18;MSOST.1.4.2; Sources d’énergies.
+18;MSOST;.1.4.3; Chaîne d’énergie.
+18;MSOST.1.4.4; Chaîne d’information.
+19;MSOST.1.5.1; Outils de description d’un fonctionnement, d’une structure et d’un comportement.
+20;MSOST.1.6.1; Instruments de mesure usuels.
+20;MSOST.1.6.2; Principe de fonctionnement d’un capteur, d’un codeur, d’un détecteur.
+20;MSOST.1.6.3; Nature du signal : analogique ou numérique.
+20;MSOST.1.6.4; Nature d’une information : logique ou analogique.
+21;MSOST.1.7.1; Notions d’écarts entre les attentes fixées par le cahier des charges et les résultats de l’expérimentation.
+26;MSOST.2.1.1; Outils de description d’un fonctionnement, d’une structure et d’un comportement.
+27;MSOST.2.2.1; Notions d’écarts entre les attentes fixées par le cahier des charges et les résultats de la simulation.
+28;IP.1.1.1; Composants d’un réseau, architecture d’un réseau local, moyens de connexion d’un moyen informatique.
+28;IP.1.1.2; Notion de protocole, d’organisation de protocoles en couche, d’algorithme de routage, Internet.
+31;IP.2.3.1; Notions d’algorithme et de programme.
+31;IP.2.3.2; Notion de variable informatique.
+31;IP.2.3.3; Déclenchement d’une action par un événement, séquences d\'instructions, boucles, instructions conditionnelles.
+31;IP.2.3.4; Systèmes embarqués.
+31;IP.2.3.5; Forme et transmission du signal.
+31;IP.2.3.6; Capteur, actionneur, interface.

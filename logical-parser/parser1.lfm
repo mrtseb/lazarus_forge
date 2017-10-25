@@ -1,0 +1,162 @@
+object Form1: TForm1
+  Left = 1005
+  Height = 418
+  Top = 220
+  Width = 352
+  Caption = 'Parseur logique'
+  ClientHeight = 398
+  ClientWidth = 352
+  Color = clBtnFace
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Menu = MainMenu1
+  OnActivate = FormActivate
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  LCLVersion = '1.8.0.5'
+  object Panel1: TPanel
+    Left = 0
+    Height = 398
+    Top = 0
+    Width = 41
+    Align = alLeft
+    TabOrder = 0
+  end
+  object Panel2: TPanel
+    Left = 312
+    Height = 398
+    Top = 0
+    Width = 40
+    Align = alRight
+    TabOrder = 1
+  end
+  object Panel3: TPanel
+    Left = 41
+    Height = 398
+    Top = 0
+    Width = 271
+    Align = alClient
+    ClientHeight = 398
+    ClientWidth = 271
+    TabOrder = 2
+    OnClick = Panel3Click
+    object SpeedButton1: TSpeedButton
+      Left = 179
+      Height = 33
+      Top = 17
+      Width = 49
+      Caption = '-->'
+      Enabled = False
+      Visible = False
+      OnClick = SpeedButton1Click
+    end
+    object Edit1: TEdit
+      Left = 6
+      Height = 28
+      Top = 19
+      Width = 169
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      OnClick = Edit1Click
+      ParentFont = False
+      ReadOnly = True
+      TabOrder = 0
+    end
+    object ListBox1: TListBox
+      Left = 190
+      Height = 209
+      Top = 86
+      Width = 57
+      ItemHeight = 0
+      TabOrder = 1
+    end
+    object Edit2: TEdit
+      Left = 6
+      Height = 28
+      Top = 46
+      Width = 169
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'MS Sans Serif'
+      ParentFont = False
+      TabOrder = 2
+      Text = 'A . (/B+C)'
+      Visible = False
+    end
+    object Button1: TButton
+      Left = 6
+      Height = 33
+      Top = 350
+      Width = 89
+      Caption = 'Démarrer'
+      OnClick = Button1Click
+      TabOrder = 3
+      Visible = False
+    end
+    object Button2: TButton
+      Left = 158
+      Height = 33
+      Top = 350
+      Width = 89
+      Caption = 'Arrêter'
+      OnClick = Button2Click
+      TabOrder = 4
+      Visible = False
+    end
+    object ListBox2: TListBox
+      Left = 6
+      Height = 209
+      Top = 86
+      Width = 169
+      Items.Strings = (
+        'S = 1'
+        'S = 0'
+        'S = A'
+        'S = /A'
+        'S = A . B'
+        'S = A & B'
+        'S = A + B'
+        'S = A | B'
+        'S = /(A.B)'
+        'S= /A+/B'
+        'S=/(A+B)'
+        'S=/A./B'
+        'S=/A.B+/B.A'
+        'S = /S'
+        'S = /B . (A + S)'
+      )
+      ItemHeight = 13
+      ItemIndex = 4
+      OnClick = ListBox2Click
+      TabOrder = 5
+    end
+    object Memo1: TMemo
+      Left = 6
+      Height = 41
+      Top = 302
+      Width = 241
+      ReadOnly = True
+      TabOrder = 6
+    end
+  end
+  object Timer1: TTimer
+    Interval = 500
+    OnTimer = Timer1Timer
+    left = 297
+    top = 296
+  end
+  object MainMenu1: TMainMenu
+    left = 255
+    top = 55
+    object MenuItem1: TMenuItem
+      Caption = '&Edition'
+      object MenuItem2: TMenuItem
+        Caption = '&Configurer la carte Arduino UNO Rev 3.'
+        OnClick = MenuItem2Click
+      end
+    end
+  end
+end

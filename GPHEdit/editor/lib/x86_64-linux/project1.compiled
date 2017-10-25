@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="/usr/bin/fpc" Date="1486289659"/>
+  <Params Value=" -MObjFPC -Scghi -Cg -O1 -g -gl -l -vewnhibq -Fi/home/mistert/lazarus/GPH/GPHEdit/editor/lib/x86_64-linux -Fu/opt/lazarus/lcl/units/x86_64-linux/gtk2 -Fu/opt/lazarus/lcl/units/x86_64-linux -Fu/opt/lazarus/components/lazutils/lib/x86_64-linux -Fu/opt/lazarus/packager/units/x86_64-linux -Fu/home/mistert/lazarus/GPH/GPHEdit/editor/ -FU/home/mistert/lazarus/GPH/GPHEdit/editor/lib/x86_64-linux/ -dLCL -dLCLgtk2 project1.lpr"/>
+</CONFIG>

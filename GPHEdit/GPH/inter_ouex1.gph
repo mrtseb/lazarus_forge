@@ -1,0 +1,29 @@
+2
+@
+Etape 0
+Eteindre lampe
+#
+56
+193
+@
+Etape 1
+Allumer lampe
+#
+350
+400
+@
+Etape 2
+Allumer lampe
+#
+516
+494
+-1
+IN2./IN1
+IN1./IN2
+/IN2+IN1
+-1
+-1
+/IN1+IN2
+-1
+-1
+ouex

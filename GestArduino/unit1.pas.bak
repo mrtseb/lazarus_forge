@@ -1,0 +1,51 @@
+unit Unit1;
+
+{$mode objfpc}{$H+}
+
+interface
+
+uses
+  Classes, SysUtils, FileUtil, SdpoSerial, Forms, Controls, Graphics, Dialogs,
+  ComCtrls, StdCtrls;
+
+type
+
+  { TForm1 }
+
+  TForm1 = class(TForm)
+    Label1: TLabel;
+    ScrollBar1: TScrollBar;
+    SdpoSerial1: TSdpoSerial;
+    procedure FormCreate(Sender: TObject);
+    procedure ScrollBar1Change(Sender: TObject);
+  private
+    { private declarations }
+  public
+    { public declarations }
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.lfm}
+
+{ TForm1 }
+
+procedure TForm1.ScrollBar1Change(Sender: TObject);
+var percent:integer;
+begin
+  percent := round(100/255*Scrollbar1.pocition);
+  Label1.Caption:=IntToStr(percent);
+  sleep(1);
+  SdpoSerial1.WriteData(IntToStr(ScrollBar1.Position)+'.');
+end;
+
+procedure TForm1.FormCreate(Sender: TObject);
+begin
+  SdpoSerial1.Active:=true;
+end;
+
+end.
+

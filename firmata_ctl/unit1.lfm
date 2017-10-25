@@ -1,0 +1,71 @@
+object Form1: TForm1
+  Left = 471
+  Height = 240
+  Top = 210
+  Width = 567
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 567
+  OnCreate = FormCreate
+  LCLVersion = '1.8.0.5'
+  object Memo1: TMemo
+    Left = 32
+    Height = 157
+    Top = 72
+    Width = 466
+    Lines.Strings = (
+      'Memo1'
+    )
+    TabOrder = 0
+  end
+  object Button3: TButton
+    Left = 64
+    Height = 33
+    Top = 20
+    Width = 61
+    Caption = 'VERSION'
+    OnClick = Button3Click
+    TabOrder = 1
+  end
+  object Button4: TButton
+    Left = 184
+    Height = 29
+    Top = 32
+    Width = 76
+    Caption = 'digital'
+    OnClick = Button4Click
+    TabOrder = 2
+  end
+  object MonPort: TTrackBar
+    Left = 144
+    Height = 23
+    Top = 8
+    Width = 148
+    Max = 8
+    Min = 2
+    Position = 2
+    TabOrder = 3
+  end
+  object A0: TButton
+    Left = 351
+    Height = 26
+    Top = 39
+    Width = 67
+    Caption = 'A0'
+    OnClick = A0Click
+    TabOrder = 4
+  end
+  object serie: TSdpoSerial
+    Active = False
+    BaudRate = br_57600
+    AltBaudRate = 0
+    DataBits = db8bits
+    Parity = pNone
+    FlowControl = fcNone
+    StopBits = sbOne
+    Device = 'COM1'
+    OnRxData = serieRxData
+    left = 24
+    top = 24
+  end
+end

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="5">
+      <Unit0>
+        <Filename Value="demo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="1"/>
+        <CursorPos Y="22"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="formmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="FormMain"/>
+        <TopLine Value="33"/>
+        <CursorPos X="38" Y="35"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="formconsole.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="fmConsole"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="115"/>
+        <CursorPos X="42" Y="117"/>
+        <ComponentState Value="2"/>
+        <UsageCount Value="23"/>
+        <Loaded Value="True"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\comp\Python-for-Lazarus-master\python4lazarus\Sources\Core\PythonEngine.pas"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="4"/>
+        <TopLine Value="5402"/>
+        <CursorPos Y="5415"/>
+        <UsageCount Value="11"/>
+        <Loaded Value="True"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\lcl\include\wincontrol.inc"/>
+        <EditorIndex Value="3"/>
+        <TopLine Value="6928"/>
+        <CursorPos Y="6941"/>
+        <UsageCount Value="10"/>
+        <Loaded Value="True"/>
+      </Unit4>
+    </Units>
+    <JumpHistory Count="4" HistoryIndex="3">
+      <Position1>
+        <Filename Value="formmain.pas"/>
+        <Caret Line="113" Column="5" TopLine="101"/>
+      </Position1>
+      <Position2>
+        <Filename Value="formconsole.pas"/>
+      </Position2>
+      <Position3>
+        <Filename Value="formconsole.pas"/>
+        <Caret Line="117" Column="42" TopLine="115"/>
+      </Position3>
+      <Position4>
+        <Filename Value="..\..\lcl\include\wincontrol.inc"/>
+        <Caret Line="6941" TopLine="6928"/>
+      </Position4>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>

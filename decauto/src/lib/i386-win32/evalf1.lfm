@@ -1,0 +1,193 @@
+object Form16: TForm16
+  Left = 622
+  Height = 435
+  Top = 173
+  Width = 512
+  BorderIcons = []
+  Caption = 'Evaluation finale 1'
+  ClientHeight = 435
+  ClientWidth = 512
+  Color = clGradientActiveCaption
+  OnCreate = FormCreate
+  Position = poDesktopCenter
+  LCLVersion = '1.6.2.0'
+  object GroupBox1: TGroupBox
+    Left = 24
+    Height = 88
+    Top = 24
+    Width = 464
+    BorderSpacing.InnerBorder = 2
+    BorderSpacing.CellAlignHorizontal = ccaLeftTop
+    BorderSpacing.CellAlignVertical = ccaLeftTop
+    Caption = 'Q1: un système automatisé est un ensemble d''éléments qui ...'
+    ClientHeight = 64
+    ClientWidth = 460
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 0
+    object CheckBox1: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 4
+      Width = 404
+      Caption = 'effectue des actions sans intervention permanente  de l''utilisateur'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 0
+    end
+    object CheckBox2: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 28
+      Width = 388
+      Caption = 'effectue des actions sous le contrôle permanent de l''utilisateur'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 1
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 24
+    Height = 280
+    Top = 120
+    Width = 464
+    BorderSpacing.InnerBorder = 2
+    BorderSpacing.CellAlignHorizontal = ccaLeftTop
+    BorderSpacing.CellAlignVertical = ccaLeftTop
+    Caption = 'Q2: coche tous les sytèmes automatisés ....'
+    ClientHeight = 256
+    ClientWidth = 460
+    Font.Height = -16
+    Font.Name = 'Times New Roman'
+    Font.Style = [fsBold]
+    ParentFont = False
+    TabOrder = 1
+    OnClick = GroupBox2Click
+    object CheckBox3: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 6
+      Width = 86
+      Caption = 'automobile'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 0
+    end
+    object CheckBox4: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 30
+      Width = 162
+      Caption = 'distributeur de boissons'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 1
+    end
+    object CheckBox5: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 54
+      Width = 105
+      Caption = 'robot soudeur'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 2
+    end
+    object CheckBox6: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 78
+      Width = 126
+      Caption = 'machine à coudre'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 3
+    end
+    object CheckBox7: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 102
+      Width = 135
+      Caption = 'sonnerie du collège'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 4
+    end
+    object CheckBox8: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 126
+      Width = 113
+      Caption = 'alarme incendie'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 5
+    end
+    object CheckBox9: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 150
+      Width = 136
+      Caption = 'tondeuse électrique'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 6
+    end
+    object CheckBox10: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 174
+      Width = 78
+      Caption = 'téléphone'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 7
+    end
+    object CheckBox11: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 198
+      Width = 127
+      Caption = 'air-bag de voiture'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 8
+    end
+    object CheckBox12: TCheckBox
+      Left = 24
+      Height = 23
+      Top = 219
+      Width = 136
+      Caption = 'perceuse électrique'
+      Font.Height = -16
+      Font.Name = 'Times New Roman'
+      ParentFont = False
+      State = cbGrayed
+      TabOrder = 9
+    end
+  end
+end

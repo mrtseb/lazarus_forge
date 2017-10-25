@@ -1,0 +1,82 @@
+object Form1: TForm1
+  Left = 110
+  Height = 744
+  Top = 68
+  Width = 1362
+  Caption = 'GphEdit'
+  ClientHeight = 744
+  ClientWidth = 1362
+  LCLVersion = '1.8.0.5'
+  WindowState = wsMaximized
+  object Memo1: TMemo
+    Left = 0
+    Height = 126
+    Top = 618
+    Width = 1362
+    Align = alBottom
+    Lines.Strings = (
+      'Memo1'
+    )
+    ScrollBars = ssVertical
+    TabOrder = 0
+    Visible = False
+  end
+  object OpenDialog1: TOpenDialog
+    left = 32
+  end
+  object SaveDialog1: TSaveDialog
+    left = 64
+  end
+  object IdleTimer1: TIdleTimer
+    Enabled = False
+    Interval = 500
+    left = 96
+  end
+  object IdleTimer2: TIdleTimer
+    Enabled = False
+    Interval = 100
+    left = 136
+  end
+  object MainMenu1: TMainMenu
+    left = 176
+    object mnuFichier: TMenuItem
+      Caption = 'Fichier'
+      object mnuNew: TMenuItem
+        Caption = '&Nouveau'
+      end
+      object mnuOuvrir: TMenuItem
+        Caption = '&Ouvrir'
+      end
+      object mnuSave: TMenuItem
+        Caption = '&Enregistrer'
+      end
+      object MenuItem1: TMenuItem
+        Caption = 'E&nregistrer sous'
+      end
+      object MenuItem3: TMenuItem
+        Caption = '&Quitter'
+      end
+    end
+    object mnuEdition: TMenuItem
+      Caption = '&Edition'
+      object mnuInsEtape: TMenuItem
+        Caption = '&Insérer étape'
+      end
+      object mnuSupprEtape: TMenuItem
+        Caption = '&Supprimer étape'
+      end
+      object mnuAssocierAnim: TMenuItem
+        Caption = 'Associer une animation'
+      end
+    end
+    object mnuSimulate: TMenuItem
+      Caption = 'Simulation'
+      object mnuSimulStart: TMenuItem
+        Caption = 'Démarrer'
+      end
+      object mnuSimulStop: TMenuItem
+        Caption = 'Arrêter'
+      end
+    end
+  end
+end

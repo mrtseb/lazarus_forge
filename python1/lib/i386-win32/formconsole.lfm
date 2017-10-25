@@ -1,0 +1,82 @@
+object fmConsole: TfmConsole
+  Left = -8
+  Height = 800
+  Top = -8
+  Width = 1600
+  BorderStyle = bsNone
+  ClientHeight = 800
+  ClientWidth = 1600
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  ParentFont = True
+  LCLVersion = '1.8.0.5'
+  object panelConsole: TPanel
+    Left = 0
+    Height = 800
+    Top = 0
+    Width = 1600
+    Align = alClient
+    BevelOuter = bvNone
+    ClientHeight = 800
+    ClientWidth = 1600
+    TabOrder = 0
+    object memoConsole: TMemo
+      Left = 0
+      Height = 281
+      Top = 496
+      Width = 1600
+      Align = alBottom
+      OnChange = memoConsoleChange
+      OnDblClick = memoConsoleDblClick
+      ReadOnly = True
+      ScrollBars = ssVertical
+      TabOrder = 0
+    end
+    object edConsole: TEdit
+      Left = 0
+      Height = 23
+      Top = 777
+      Width = 1600
+      Align = alBottom
+      OnKeyDown = edConsoleKeyDown
+      OnKeyPress = edConsoleKeyPress
+      TabOrder = 1
+    end
+    object Memo1: TMemo
+      Left = 0
+      Height = 472
+      Top = 0
+      Width = 1600
+      Align = alTop
+      Lines.Strings = (
+        'import csv'
+        ''
+        'dict = {''Python'':''.py'',''C++'':''.cpp'',''Java'':''.java''}'
+        'f=open("output.csv", "w")'
+        'w = csv.writer(f)'
+        'f.write("LANGU."+'';''+"VALUE")'
+        'f.write("\n")'
+        'for key, val in dict.items():'
+        '   f.write(key+'';''+val)'
+        '   f.write("\n")'
+        'f.close()'
+      )
+      ScrollBars = ssVertical
+      TabOrder = 2
+    end
+    object Button1: TButton
+      Left = 8
+      Height = 19
+      Top = 472
+      Width = 70
+      Caption = '>>>'
+      OnClick = Button1Click
+      TabOrder = 3
+    end
+  end
+  object PopupMenu1: TPopupMenu
+    OnPopup = PopupMenu1Popup
+    left = 75
+    top = 58
+  end
+end
