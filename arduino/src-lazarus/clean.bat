@@ -6,8 +6,6 @@ del /s /q *.log
 del /s /q *.ppu
 del /s /q *.bak
 del /s /q *.obj
-del /q .\src-lazarus\*.o
-copy .\src-lazarus\MrTArduino1.exe .\
-copy .\src-lazarus\SerialReader1.exe .\
+del /q *.o
 strip.exe SerialReader1.exe
 strip.exe MrTArduino1.exe
