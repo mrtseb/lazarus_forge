@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="10"/>
+    <BuildModes Active="Default"/>
+    <Units Count="21">
+      <Unit0>
+        <Filename Value="MrTArduino1.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="25" Y="12"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="main1.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="3"/>
+        <CursorPos X="30" Y="17"/>
+        <UsageCount Value="28"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="..\..\comp\jcl-jvcl\jvcl\run\JvDSADialogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="34" Y="34"/>
+        <UsageCount Value="9"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="..\..\comp\jcl-jvcl\jvcl\common\jvcl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="5" Y="26"/>
+        <UsageCount Value="9"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jvcl\run\JvDSADialogs.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="15"/>
+        <CursorPos X="58" Y="33"/>
+        <UsageCount Value="10"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jvcl\run\jvcl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="12"/>
+        <CursorPos X="18" Y="24"/>
+        <UsageCount Value="10"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="..\..\..\comp\user\user2.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="36" Y="20"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="..\..\..\comp\user\JvAnimatedImage.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="177"/>
+        <CursorPos X="42" Y="190"/>
+        <UsageCount Value="10"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="..\..\..\comp\user\JvCreateProcess.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="10"/>
+        <CursorPos X="5" Y="31"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclUnicode.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1635"/>
+        <CursorPos X="27" Y="1641"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclSysUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="4255"/>
+        <CursorPos X="137" Y="4260"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="..\..\..\components\lazutils\lazutf8classes.pas"/>
+        <UnitName Value="LazUTF8Classes"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="130"/>
+        <CursorPos X="99" Y="156"/>
+        <UsageCount Value="11"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclStreams.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="601"/>
+        <CursorPos X="25" Y="609"/>
+        <UsageCount Value="11"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclFileUtils.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1087"/>
+        <CursorPos X="48" Y="1109"/>
+        <UsageCount Value="11"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclStrings.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="793"/>
+        <CursorPos X="51" Y="813"/>
+        <UsageCount Value="11"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="lib\i386-win32\jcl.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="30"/>
+        <CursorPos X="43" Y="47"/>
+        <UsageCount Value="11"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="..\..\..\comp\rmoptoelecd7\rmAGraph.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="181"/>
+        <CursorPos X="27" Y="194"/>
+        <UsageCount Value="11"/>
+        <DefaultSyntaxHighlighter Value="Delphi"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="..\..\..\comp\bgracontrols-master\bcsamples.pas"/>
+        <UnitName Value="BCSamples"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="32" Y="11"/>
+        <UsageCount Value="11"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\windows\JclConsole.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="404"/>
+        <CursorPos X="38" Y="417"/>
+        <UsageCount Value="11"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="..\..\..\comp\castle_game_engine\src\3d\castle3d.pas"/>
+        <UnitName Value="Castle3D"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="6"/>
+        <CursorPos X="2" Y="19"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="..\..\..\comp\jcl-jvcl\jcl\source\common\JclSynch.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="50"/>
+        <CursorPos X="44" Y="57"/>
+        <UsageCount Value="10"/>
+      </Unit20>
+    </Units>
+    <JumpHistory Count="29" HistoryIndex="28">
+      <Position1>
+        <Filename Value="main1.pas"/>
+        <Caret Line="9" Column="46" TopLine="3"/>
+      </Position1>
+      <Position2>
+        <Filename Value="main1.pas"/>
+        <Caret Line="5" Column="32" TopLine="3"/>
+      </Position2>
+      <Position3>
+        <Filename Value="main1.pas"/>
+        <Caret Line="9" Column="46" TopLine="3"/>
+      </Position3>
+      <Position4>
+        <Filename Value="main1.pas"/>
+        <Caret Line="9" Column="46" TopLine="3"/>
+      </Position4>
+      <Position5>
+        <Filename Value="main1.pas"/>
+        <Caret Line="14" Column="122" TopLine="3"/>
+      </Position5>
+      <Position6>
+        <Filename Value="main1.pas"/>
+        <Caret Line="25" Column="54" TopLine="3"/>
+      </Position6>
+      <Position7>
+        <Filename Value="main1.pas"/>
+        <Caret Line="18" Column="58"/>
+      </Position7>
+      <Position8>
+        <Filename Value="main1.pas"/>
+        <Caret Line="6" Column="119"/>
+      </Position8>
+      <Position9>
+        <Filename Value="main1.pas"/>
+        <Caret Line="5" Column="67"/>
+      </Position9>
+      <Position10>
+        <Filename Value="main1.pas"/>
+        <Caret Line="65" Column="18" TopLine="47"/>
+      </Position10>
+      <Position11>
+        <Filename Value="main1.pas"/>
+        <Caret Line="59" Column="52" TopLine="45"/>
+      </Position11>
+      <Position12>
+        <Filename Value="main1.pas"/>
+        <Caret Line="151" Column="2" TopLine="149"/>
+      </Position12>
+      <Position13>
+        <Filename Value="main1.pas"/>
+        <Caret Line="152" Column="19" TopLine="8"/>
+      </Position13>
+      <Position14>
+        <Filename Value="main1.pas"/>
+        <Caret Line="153" Column="4" TopLine="149"/>
+      </Position14>
+      <Position15>
+        <Filename Value="main1.pas"/>
+        <Caret Line="154" Column="81" TopLine="146"/>
+      </Position15>
+      <Position16>
+        <Filename Value="main1.pas"/>
+        <Caret Line="63" Column="19" TopLine="42"/>
+      </Position16>
+      <Position17>
+        <Filename Value="main1.pas"/>
+        <Caret Line="120" Column="10" TopLine="84"/>
+      </Position17>
+      <Position18>
+        <Filename Value="main1.pas"/>
+        <Caret Line="54" Column="25" TopLine="34"/>
+      </Position18>
+      <Position19>
+        <Filename Value="main1.pas"/>
+        <Caret Line="86" Column="24" TopLine="53"/>
+      </Position19>
+      <Position20>
+        <Filename Value="main1.pas"/>
+        <Caret Line="128" Column="26" TopLine="126"/>
+      </Position20>
+      <Position21>
+        <Filename Value="main1.pas"/>
+        <Caret Line="127" Column="26" TopLine="125"/>
+      </Position21>
+      <Position22>
+        <Filename Value="main1.pas"/>
+        <Caret Line="86" Column="9" TopLine="65"/>
+      </Position22>
+      <Position23>
+        <Filename Value="main1.pas"/>
+        <Caret Line="15" Column="77"/>
+      </Position23>
+      <Position24>
+        <Filename Value="main1.pas"/>
+        <Caret Line="123" Column="117" TopLine="88"/>
+      </Position24>
+      <Position25>
+        <Filename Value="main1.pas"/>
+        <Caret Line="153" Column="56" TopLine="111"/>
+      </Position25>
+      <Position26>
+        <Filename Value="main1.pas"/>
+        <Caret Line="123" Column="108" TopLine="111"/>
+      </Position26>
+      <Position27>
+        <Filename Value="main1.pas"/>
+        <Caret Line="126" Column="60" TopLine="111"/>
+      </Position27>
+      <Position28>
+        <Filename Value="main1.pas"/>
+        <Caret Line="123" Column="99" TopLine="102"/>
+      </Position28>
+      <Position29>
+        <Filename Value="main1.pas"/>
+        <Caret Line="4" Column="62" TopLine="3"/>
+      </Position29>
+    </JumpHistory>
+  </ProjectSession>
+</CONFIG>
